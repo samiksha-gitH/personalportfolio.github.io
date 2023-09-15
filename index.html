@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samiksha - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Alena's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Past Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="first">
+            <div class="left-sec">Hi, my name is <span class="name">Alena</span>
+                <div>And I am a web developer</div>
+                <span id="element"></span>
+
+            </div>
+            <div class="right-sec">
+                <img src="develop.jpg" alt="developer">
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="second">
+            <h1 class="work">What I have done Till Now?</h1>
+            <div class="box"></div>
+            <ul class="events">
+                <li class="one"><span>Organizer - 2019</span>
+                    <div>Organizer of Thugs-Of-War which was a technical event from this I have learnt many technical
+                        things</div>
+                </li>
+                <li class="two"><span>Head-organizer - 2021</span>
+                    <div>Head-Organizer Of ClueMinati Which was a non-technical event, from this I have enhanced my
+                        leadership quality as well as team work</div>
+
+                </li>
+
+                <li class="three"><span>Volenteer - 2023</span>
+                    <div>Volenteer of U&I team, I am following my passion of teaching</div>
+
+                </li>
+            </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="firstFooter">
+                <h3 style="font-size: 2rem;">Alena's Portfolio</h3>
+            </div>
+            <div class="secondFooter">
+                <form action="/action.php">
+                    <span>Name </span>: <input type="text" placeholder="Enter name"><br><br>
+                    <!-- <span>Choose Your City </span>: <input type="password" placeholder="Enter password"><br><br> -->
+                    <span>Choose Your Branch </span>:<br>
+                    <br><label for="101">
+                        <input type="radio" value="Computer Science" name="class" id="101">Computer Science
+                    </label>
+                    <label for="102">
+                        <input type="radio" value="Computer Technology" name="class" id="102">Computer Technology
+                    </label>
+                    <label for="103">
+                        <input type="radio" value="Information Technology" name="class" id="103">Information Technology
+                    </label>
+                    <label for="104">
+                        <input type="radio" value="Data Science" name="class" id="104">Data Science
+                    </label>
+                    <br>
+                    <br>
+                    <span>Choose Your Subjects </span>:<br>
+                    <br> <label for="math">
+                        <input type="checkbox" value="math" name="subject" id="math">Maths
+                    </label>
+                    <label for="science">
+                        <input type="checkbox" value="science" name="subject" id="science">Science
+                    </label>
+                    <label for="oops">
+                        <input type="checkbox" value="oops" name="subject" id="oops">OOPS
+                    </label>
+                    <label for="dbms">
+                        <input type="checkbox" value="dbms" name="subject" id="dbms">DBMS
+                    </label>
+                    <label for="cn">
+                        <input type="checkbox" value="cn" name="subject" id="cn">CN
+                    </label>
+                    <label for="toc">
+                        <input type="checkbox" value="toc" name="subject" id="toc">TOC
+                    </label>
+                    <br><br>
+                    <span>Choose Your City </span>:<br><br> <select name="city" id="city">
+                        <option value="Delhi">Delhi</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Banglore">Banglore</option>
+                    </select>
+                    <br><br>
+                    <textarea name="feedback" id="789" placeholder="Please give your valuable feedback" cols="30"
+                        rows="10"></textarea>
+                    <br><br>
+
+
+                    <input type="submit" class="submit" value="SUBMIT">
+                </form>
+            </div>
+        </div>
+    </footer>
+
+    
+
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Content Writer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
